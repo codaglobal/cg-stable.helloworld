@@ -1,0 +1,87 @@
+/* Color Palete:
+    Medium Blue - #0009bf (links)
+    Onyx - #3c3744 (normal text)
+    Dark Sienna - #3d0814 (headlines)
+    Isabelline - #f1f7ed (page titles)
+    Pale Goldenrod - #e7f9a9 (Links on dark colors)
+    Off-white - #fcfcfc (background)
+*/
+
+body {
+    color: #3c3744;
+    background-color: #fcfcfc;
+}
+
+.hero {
+    background-image: url("../images/bw-maps-banner.jpg");
+    background-position: center;
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+
+    min-height: 250px;
+    margin-top: 45px;
+}
+
+a {
+    color: #0009BF;
+}
+
+.pageTitle {
+    color: #f1f7ed;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-variant-position: center;
+    opacity: 1;
+}
+
+main>h1 {
+    margin-bottom: 25px;
+    color: #3d0814;
+}
+
+body>div>footer {
+    color: #f1f7ed;
+    min-height: 100px;
+    padding: 30px;
+}
+
+.footerMenu {
+    list-style: none;
+    color: #e7f9a9;
+}
+
+footer>ul>li>a {
+    color: #e7f9a9;
+}
+
+footer>ul>li>a:hover {
+    color: #e7f9a9;
+    font-weight: bold;
+}
+
+main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+blockquote {
+    color: #3d0814;
+    margin-left: 30px;
+    font-size: 115%;
+}
+
